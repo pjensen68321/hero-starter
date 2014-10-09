@@ -1,0 +1,2078 @@
+{
+ "board": {
+  "tiles": [
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 2
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 3
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 4
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 6
+    },
+    {
+     "distanceFromTop": 0,
+     "distanceFromLeft": 7,
+     "type": "HealthWell",
+     "subType": "HealthWell"
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 8
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 0,
+     "distanceFromLeft": 10
+    },
+    {
+     "id": 3,
+     "distanceFromTop": 0,
+     "distanceFromLeft": 11,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 2
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 3
+    },
+    {
+     "id": 2,
+     "distanceFromTop": 1,
+     "distanceFromLeft": 4,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 7
+    },
+    {
+     "distanceFromTop": 1,
+     "distanceFromLeft": 8,
+     "type": "HealthWell",
+     "subType": "HealthWell"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 1,
+     "distanceFromLeft": 10
+    },
+    {
+     "id": 6,
+     "distanceFromTop": 1,
+     "distanceFromLeft": 11,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    }
+   ],
+   [
+    {
+     "id": 9,
+     "distanceFromTop": 2,
+     "distanceFromLeft": 0,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 1
+    },
+    {
+     "id": 12,
+     "distanceFromTop": 2,
+     "distanceFromLeft": 2,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    },
+    {
+     "id": 3,
+     "distanceFromTop": 2,
+     "distanceFromLeft": 3,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 4
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 7
+    },
+    {
+     "distanceFromTop": 2,
+     "distanceFromLeft": 8,
+     "type": "HealthWell",
+     "subType": "HealthWell"
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 10
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 2,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 2
+    },
+    {
+     "id": 6,
+     "distanceFromTop": 3,
+     "distanceFromLeft": 3,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 4
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 7
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 8
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 10
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 3,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 0
+    },
+    {
+     "id": 0,
+     "distanceFromTop": 4,
+     "distanceFromLeft": 1,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 2
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 3
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 4
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 7
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 8
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 10
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 4,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 2
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 3
+    },
+    {
+     "id": 5,
+     "distanceFromTop": 5,
+     "distanceFromLeft": 4,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 7
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 8
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 9
+    },
+    {
+     "distanceFromTop": 5,
+     "distanceFromLeft": 10,
+     "type": "HealthWell",
+     "subType": "HealthWell"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 5,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 1
+    },
+    {
+     "id": 5,
+     "distanceFromTop": 6,
+     "distanceFromLeft": 2,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 3
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 4
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 6
+    },
+    {
+     "id": 2,
+     "distanceFromTop": 6,
+     "distanceFromLeft": 7,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    },
+    {
+     "id": 1,
+     "distanceFromTop": 6,
+     "distanceFromLeft": 8,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 10
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 6,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 2
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 3
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 4
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 7
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 8
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 10
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 7,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "id": 11,
+     "distanceFromTop": 8,
+     "distanceFromLeft": 0,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 2
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 3
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 4
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 6
+    },
+    {
+     "id": 8,
+     "distanceFromTop": 8,
+     "distanceFromLeft": 7,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    },
+    {
+     "id": 0,
+     "distanceFromTop": 8,
+     "distanceFromLeft": 8,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    },
+    {
+     "id": 4,
+     "distanceFromTop": 8,
+     "distanceFromLeft": 9,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 10
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 8,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 2
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 3
+    },
+    {
+     "id": 1,
+     "distanceFromTop": 9,
+     "distanceFromLeft": 4,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 5
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 7
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 8
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 9,
+     "distanceFromLeft": 10
+    },
+    {
+     "id": 13,
+     "distanceFromTop": 9,
+     "distanceFromLeft": 11,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 0
+    },
+    {
+     "distanceFromTop": 10,
+     "distanceFromLeft": 1,
+     "type": "HealthWell",
+     "subType": "HealthWell"
+    },
+    {
+     "id": 14,
+     "distanceFromTop": 10,
+     "distanceFromLeft": 2,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 3
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 4
+    },
+    {
+     "id": 10,
+     "distanceFromTop": 10,
+     "distanceFromLeft": 5,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 7
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 8
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 9
+    },
+    {
+     "id": 7,
+     "distanceFromTop": 10,
+     "distanceFromLeft": 10,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 10,
+     "distanceFromLeft": 11
+    }
+   ],
+   [
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 0
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 1
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 2
+    },
+    {
+     "id": 7,
+     "distanceFromTop": 11,
+     "distanceFromLeft": 3,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 4
+    },
+    {
+     "id": 15,
+     "distanceFromTop": 11,
+     "distanceFromLeft": 5,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "Adventurer",
+     "team": 1,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 6
+    },
+    {
+     "type": "Impassable",
+     "subType": "Tree",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 7
+    },
+    {
+     "id": 4,
+     "distanceFromTop": 11,
+     "distanceFromLeft": 8,
+     "minesOwned": {},
+     "mineCount": 0,
+     "minesCaptured": 0,
+     "health": 100,
+     "dead": false,
+     "diamondsEarned": 0,
+     "damageDone": 0,
+     "heroesKilled": [],
+     "lastActiveTurn": 0,
+     "gravesRobbed": 0,
+     "healthRecovered": 0,
+     "healthGiven": 0,
+     "won": false,
+     "type": "Hero",
+     "subType": "BlackKnight",
+     "team": 0,
+     "name": "random"
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 9
+    },
+    {
+     "type": "Unoccupied",
+     "subType": "Unoccupied",
+     "distanceFromTop": 11,
+     "distanceFromLeft": 10
+    },
+    {
+     "id": 8,
+     "distanceFromTop": 11,
+     "distanceFromLeft": 11,
+     "type": "DiamondMine",
+     "subType": "DiamondMine"
+    }
+   ]
+  ],
+  "lengthOfSide": 12
+ },
+ "heroes": [
+  {
+   "id": 0,
+   "distanceFromTop": 8,
+   "distanceFromLeft": 8,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 1,
+   "distanceFromTop": 9,
+   "distanceFromLeft": 4,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 2,
+   "distanceFromTop": 6,
+   "distanceFromLeft": 7,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 3,
+   "distanceFromTop": 0,
+   "distanceFromLeft": 11,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 4,
+   "distanceFromTop": 11,
+   "distanceFromLeft": 8,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 5,
+   "distanceFromTop": 6,
+   "distanceFromLeft": 2,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 6,
+   "distanceFromTop": 3,
+   "distanceFromLeft": 3,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 7,
+   "distanceFromTop": 10,
+   "distanceFromLeft": 10,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "BlackKnight",
+   "team": 0,
+   "name": "random"
+  },
+  {
+   "id": 8,
+   "distanceFromTop": 8,
+   "distanceFromLeft": 7,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  },
+  {
+   "id": 9,
+   "distanceFromTop": 2,
+   "distanceFromLeft": 0,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  },
+  {
+   "id": 10,
+   "distanceFromTop": 10,
+   "distanceFromLeft": 5,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  },
+  {
+   "id": 11,
+   "distanceFromTop": 8,
+   "distanceFromLeft": 0,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  },
+  {
+   "id": 12,
+   "distanceFromTop": 2,
+   "distanceFromLeft": 2,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  },
+  {
+   "id": 13,
+   "distanceFromTop": 9,
+   "distanceFromLeft": 11,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  },
+  {
+   "id": 14,
+   "distanceFromTop": 10,
+   "distanceFromLeft": 2,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  },
+  {
+   "id": 15,
+   "distanceFromTop": 11,
+   "distanceFromLeft": 5,
+   "minesOwned": {},
+   "mineCount": 0,
+   "minesCaptured": 0,
+   "health": 100,
+   "dead": false,
+   "diamondsEarned": 0,
+   "damageDone": 0,
+   "heroesKilled": [],
+   "lastActiveTurn": 0,
+   "gravesRobbed": 0,
+   "healthRecovered": 0,
+   "healthGiven": 0,
+   "won": false,
+   "type": "Hero",
+   "subType": "Adventurer",
+   "team": 1,
+   "name": "random"
+  }
+ ],
+ "heroTurnIndex": 0,
+ "activeHero": {
+  "id": 0,
+  "distanceFromTop": 8,
+  "distanceFromLeft": 8,
+  "minesOwned": {},
+  "mineCount": 0,
+  "minesCaptured": 0,
+  "health": 100,
+  "dead": false,
+  "diamondsEarned": 0,
+  "damageDone": 0,
+  "heroesKilled": [],
+  "lastActiveTurn": 0,
+  "gravesRobbed": 0,
+  "healthRecovered": 0,
+  "healthGiven": 0,
+  "won": false,
+  "type": "Hero",
+  "subType": "BlackKnight",
+  "team": 0,
+  "name": "random"
+ },
+ "teams": [
+  [
+   {
+    "id": 0,
+    "distanceFromTop": 8,
+    "distanceFromLeft": 8,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   },
+   {
+    "id": 1,
+    "distanceFromTop": 9,
+    "distanceFromLeft": 4,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   },
+   {
+    "id": 2,
+    "distanceFromTop": 6,
+    "distanceFromLeft": 7,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   },
+   {
+    "id": 3,
+    "distanceFromTop": 0,
+    "distanceFromLeft": 11,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   },
+   {
+    "id": 4,
+    "distanceFromTop": 11,
+    "distanceFromLeft": 8,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   },
+   {
+    "id": 5,
+    "distanceFromTop": 6,
+    "distanceFromLeft": 2,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   },
+   {
+    "id": 6,
+    "distanceFromTop": 3,
+    "distanceFromLeft": 3,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   },
+   {
+    "id": 7,
+    "distanceFromTop": 10,
+    "distanceFromLeft": 10,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "BlackKnight",
+    "team": 0,
+    "name": "random"
+   }
+  ],
+  [
+   {
+    "id": 8,
+    "distanceFromTop": 8,
+    "distanceFromLeft": 7,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   },
+   {
+    "id": 9,
+    "distanceFromTop": 2,
+    "distanceFromLeft": 0,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   },
+   {
+    "id": 10,
+    "distanceFromTop": 10,
+    "distanceFromLeft": 5,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   },
+   {
+    "id": 11,
+    "distanceFromTop": 8,
+    "distanceFromLeft": 0,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   },
+   {
+    "id": 12,
+    "distanceFromTop": 2,
+    "distanceFromLeft": 2,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   },
+   {
+    "id": 13,
+    "distanceFromTop": 9,
+    "distanceFromLeft": 11,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   },
+   {
+    "id": 14,
+    "distanceFromTop": 10,
+    "distanceFromLeft": 2,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   },
+   {
+    "id": 15,
+    "distanceFromTop": 11,
+    "distanceFromLeft": 5,
+    "minesOwned": {},
+    "mineCount": 0,
+    "minesCaptured": 0,
+    "health": 100,
+    "dead": false,
+    "diamondsEarned": 0,
+    "damageDone": 0,
+    "heroesKilled": [],
+    "lastActiveTurn": 0,
+    "gravesRobbed": 0,
+    "healthRecovered": 0,
+    "healthGiven": 0,
+    "won": false,
+    "type": "Hero",
+    "subType": "Adventurer",
+    "team": 1,
+    "name": "random"
+   }
+  ]
+ ],
+ "totalTeamDiamonds": [
+  0,
+  0
+ ],
+ "diamondMines": [
+  {
+   "id": 0,
+   "distanceFromTop": 4,
+   "distanceFromLeft": 1,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 1,
+   "distanceFromTop": 6,
+   "distanceFromLeft": 8,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 2,
+   "distanceFromTop": 1,
+   "distanceFromLeft": 4,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 3,
+   "distanceFromTop": 2,
+   "distanceFromLeft": 3,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 4,
+   "distanceFromTop": 8,
+   "distanceFromLeft": 9,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 5,
+   "distanceFromTop": 5,
+   "distanceFromLeft": 4,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 6,
+   "distanceFromTop": 1,
+   "distanceFromLeft": 11,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 7,
+   "distanceFromTop": 11,
+   "distanceFromLeft": 3,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  },
+  {
+   "id": 8,
+   "distanceFromTop": 11,
+   "distanceFromLeft": 11,
+   "type": "DiamondMine",
+   "subType": "DiamondMine"
+  }
+ ],
+ "healthWells": [
+  {
+   "distanceFromTop": 5,
+   "distanceFromLeft": 10,
+   "type": "HealthWell",
+   "subType": "HealthWell"
+  },
+  {
+   "distanceFromTop": 1,
+   "distanceFromLeft": 8,
+   "type": "HealthWell",
+   "subType": "HealthWell"
+  },
+  {
+   "distanceFromTop": 10,
+   "distanceFromLeft": 1,
+   "type": "HealthWell",
+   "subType": "HealthWell"
+  },
+  {
+   "distanceFromTop": 0,
+   "distanceFromLeft": 7,
+   "type": "HealthWell",
+   "subType": "HealthWell"
+  },
+  {
+   "distanceFromTop": 2,
+   "distanceFromLeft": 8,
+   "type": "HealthWell",
+   "subType": "HealthWell"
+  }
+ ],
+ "impassables": [
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 11,
+   "distanceFromLeft": 7
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 2,
+   "distanceFromLeft": 9
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 3,
+   "distanceFromLeft": 0
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 3,
+   "distanceFromLeft": 11
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 0,
+   "distanceFromLeft": 8
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 4,
+   "distanceFromLeft": 5
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 5,
+   "distanceFromLeft": 5
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 5,
+   "distanceFromLeft": 3
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 7,
+   "distanceFromLeft": 2
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 6,
+   "distanceFromLeft": 6
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 0,
+   "distanceFromLeft": 6
+  },
+  {
+   "type": "Impassable",
+   "subType": "Tree",
+   "distanceFromTop": 0,
+   "distanceFromLeft": 2
+  }
+ ],
+ "ended": false,
+ "diamondMessage": "",
+ "moveMessage": "Game is about to start",
+ "attackMessage": "",
+ "killMessage": "",
+ "maxTurn": 1000,
+ "turn": 0,
+ "hasStarted": false
+}

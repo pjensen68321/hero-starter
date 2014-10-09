@@ -70,18 +70,47 @@
 
 // // The "Careful Assassin"
 // // This hero will attempt to kill the closest weaker enemy hero.
+var moveCarefulAssasin = function(gameData, helpers) {
+  var myHero = gameData.activeHero;
+  if (myHero.health < 50) {
+    return helpers.findNearestHealthWell(gameData);
+  } else {
+    return helpers.findNearestWeakerEnemy(gameData);
+  }
+};
+
+// // The "Safe Diamond Miner"
 // var move = function(gameData, helpers) {
 //   var myHero = gameData.activeHero;
-//   if (myHero.health < 50) {
-//     return helpers.findNearestHealthWell(gameData);
+
+//   //Get stats on the nearest health well
+//   var healthWellStats = helpers.findNearestObjectDirectionAndDistance(gameData.board, myHero, function(boardTile) {
+//     if (boardTile.type === 'HealthWell') {
+//       return true;
+//     }
+//   });
+//   var distanceToHealthWell = healthWellStats.distance;
+//   var directionToHealthWell = healthWellStats.direction;
+  
+
+//   if (myHero.health < 40) {
+//     //Heal no matter what if low health
+//     return directionToHealthWell;
+//   } else if (myHero.health < 100 && distanceToHealthWell === 1) {
+//     //Heal if you aren't full health and are close to a health well already
+//     return directionToHealthWell;
 //   } else {
-//     return helpers.findNearestWeakerEnemy(gameData);
+//     //If healthy, go capture a diamond mine!
+//     return helpers.findNearestNonTeamDiamondMine(gameData);
 //   }
 // };
 
-// // The "Safe Diamond Miner"
+// // my attempt
 var move = function(gameData, helpers) {
   var myHero = gameData.activeHero;
+  var board = gameData.board;
+  //var data = JSON.stringify(gameData, null, 1);
+  //gameData.maxTurn = 5000;
 
   //Get stats on the nearest health well
   var healthWellStats = helpers.findNearestObjectDirectionAndDistance(gameData.board, myHero, function(boardTile) {
@@ -91,17 +120,48 @@ var move = function(gameData, helpers) {
   });
   var distanceToHealthWell = healthWellStats.distance;
   var directionToHealthWell = healthWellStats.direction;
-  
 
-  if (myHero.health < 40) {
-    //Heal no matter what if low health
-    return directionToHealthWell;
-  } else if (myHero.health < 100 && distanceToHealthWell === 1) {
-    //Heal if you aren't full health and are close to a health well already
-    return directionToHealthWell;
-  } else {
-    //If healthy, go capture a diamond mine!
-    return helpers.findNearestNonTeamDiamondMine(gameData);
+  var enemy = helpers.findNearestObjectDirectionAndDistance(board, myHero, function(enemyTile) {
+    return enemyTile.type === 'Hero' && enemyTile.team !== myHero.team && enemyTile.health < 50;
+  });
+
+  var nearestEnemy = helpers.findNearestObjectDirectionAndDistance(board, myHero, function(enemyTile) {
+    return enemyTile.type === 'Hero' && enemyTile.team !== myHero.team
+  });
+
+
+
+  if (!enemy){
+    enemy = {};
+    enemy.distance = 10000;
+    enemy.health = 10000;
+    enemy.direction = 'STAY';
+  }
+  var nearestDiamond = helpers.findNearestNonTeamDiamondMine(gameData);
+  if (healthWellStats.distance === 1 && myHero.health < 100){
+    if (enemy.health <= 30 && enemy.distance === 1){
+      return enemy.direction;
+    }else{
+      return healthWellStats.direction;
+    }
+  }else{
+    if (myHero.health < 50){
+      return directionToHealthWell;
+    }else{
+      if (enemy.distance <= 2){
+        return enemy.direction;
+      }else{
+        if (myHero.health < 70) {
+          return directionToHealthWell;
+        }else{
+          if (nearestDiamond){
+            return nearestDiamond;
+          }else{
+            return nearestEnemy.direction;
+          }
+        }
+      }
+    }
   }
 };
 
