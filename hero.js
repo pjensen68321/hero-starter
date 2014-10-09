@@ -105,6 +105,21 @@ var moveCarefulAssasin = function(gameData, helpers) {
 //   }
 // };
 
+var oposite = function(direction){
+  //"North", "South", "East", "West", or "Stay"
+  if (direction === 'North'){
+    return "South";
+  }else if (direction === 'South'){
+    return "North";
+  }else if (direction === "East"){
+    return "West";
+  }else if (direction === "West"){
+    return "East";
+  }else{
+    return "Stay";
+  }
+};
+
 // // my attempt
 var move = function(gameData, helpers) {
   var myHero = gameData.activeHero;
@@ -124,20 +139,21 @@ var move = function(gameData, helpers) {
   var enemy = helpers.findNearestObjectDirectionAndDistance(board, myHero, function(enemyTile) {
     return enemyTile.type === 'Hero' && enemyTile.team !== myHero.team && enemyTile.health < 50;
   });
-
-  var nearestEnemy = helpers.findNearestObjectDirectionAndDistance(board, myHero, function(enemyTile) {
-    return enemyTile.type === 'Hero' && enemyTile.team !== myHero.team
-  });
-
-
-
   if (!enemy){
     enemy = {};
     enemy.distance = 10000;
     enemy.health = 10000;
-    enemy.direction = 'STAY';
+    enemy.direction = 'Stay';
   }
+
+  var nearestEnemy = helpers.findNearestObjectDirectionAndDistance(board, myHero, function(enemyTile) {
+    return enemyTile.type === 'Hero' && enemyTile.team !== myHero.team
+  });
+  
   var nearestDiamond = helpers.findNearestNonTeamDiamondMine(gameData);
+
+
+
   if (healthWellStats.distance === 1 && myHero.health < 100){
     if (enemy.health <= 30 && enemy.distance === 1){
       return enemy.direction;
@@ -146,7 +162,13 @@ var move = function(gameData, helpers) {
     }
   }else{
     if (myHero.health < 50){
-      return directionToHealthWell;
+      if (enemy.health <= 30 && enemy.distance === 1){
+        return enemy.direction;
+      }else{
+        return healthWellStats.direction;
+      }
+      
+      
     }else{
       if (enemy.distance <= 2){
         return enemy.direction;
