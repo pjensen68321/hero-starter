@@ -70,14 +70,14 @@
 
 // // The "Careful Assassin"
 // // This hero will attempt to kill the closest weaker enemy hero.
-var moveCarefulAssasin = function(gameData, helpers) {
-  var myHero = gameData.activeHero;
-  if (myHero.health < 50) {
-    return helpers.findNearestHealthWell(gameData);
-  } else {
-    return helpers.findNearestWeakerEnemy(gameData);
-  }
-};
+// var move = function(gameData, helpers) {
+//   var myHero = gameData.activeHero;
+//   if (myHero.health < 50) {
+//     return helpers.findNearestHealthWell(gameData);
+//   } else {
+//     return helpers.findNearestWeakerEnemy(gameData);
+//   }
+// };
 
 // // The "Safe Diamond Miner"
 // var move = function(gameData, helpers) {
